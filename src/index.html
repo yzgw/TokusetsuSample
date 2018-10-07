@@ -1,0 +1,368 @@
+<!doctype html>
+
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="サンプルです">
+    <meta property="og:title" content="サンプルサイト イベント名 スペース名">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.example.com/">
+    <meta property="og:image" content="https://www.example.com">
+    <meta property="og:site_name" content="サンプルサイト">
+    <meta property="og:description" content="サンプルサイトです"/>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="" />
+    <title>サンプルサイト</title>
+    <link rel="stylesheet" href="scss/index.scss">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+<body>
+
+<div class="tk-cover">
+    <div class="tk-cover-image-wrapper" data-src="img/visual.png">
+        <div class="tk-cover-yuges">
+            <img class="tk-cover-yuge-bg1" data-src="img/yuge1.png">
+            <img class="tk-cover-yuge-bg2" data-src="img/yuge2.png">
+            <img class="tk-cover-yuge-bg3" data-src="img/yuge3.png">
+        </div>
+        <div class="tk-cover-title">
+            <img class="tk-cover-title_image" data-src="img/logo.png"/>
+            <span class="tk-cover-title_aside">イベント名 スペース名にて頒布予定</span>
+        </div>
+        <div class="tk-cover-social">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="tweet-button"
+               data-show-count="false"></a>
+        </div>
+    </div>
+    <div class="tk-cover-loading">
+        <div class="tk-cover-loading_image">
+            <div class="tk-cover-loading_image_effect">
+                <div class="star">
+                    <svg viewBox="0 0 106 101" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                         clip-rule="evenodd" stroke-linecap="round">
+                        <path d="M47.739 4.532a6.105 6.105 0 0 1 10.308 0l14.904 23.47 26.927 6.922a6.106 6.106 0 0 1 3.186 9.804L85.348 66.155l1.738 27.749a6.107 6.107 0 0 1-8.34 6.058L52.893 89.735 27.04 99.962a6.103 6.103 0 0 1-8.339-6.058l1.737-27.749L2.722 44.728a6.109 6.109 0 0 1-1.101-5.777 6.109 6.109 0 0 1 4.287-4.027l26.927-6.922 14.904-23.47z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="tk-about-section">
+    <div class="tk-about-section-title">
+        AAA x BBB
+    </div>
+    <p class="tk-about-section-message">
+        サンプル用の文言。サンプル用の文言<br>
+        サンプル用の文言<br>
+        サンプル用の文言
+    </p>
+</section>
+
+<section class="tk-member-section">
+    <h2 class="tk-section-title">
+        <img src="data:image/png;base64,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">
+        MEMBER
+    </h2>
+    <ul class="tk-member-list">
+        <li class="tk-member-list-item" data-role="starter">
+            <div class="tk-member-list-item_icon-wrapper">
+                <img class="tk-member-list-item_icon" data-src="img/twitter_icons/icon.png">
+            </div>
+            <span class="tk-member-list-item_name">AAAA</span>
+            <ul class="tk-member-list-item_social">
+                <li class="tk-member-list-item_social-item">
+                    <a class="tk-badge" data-type="twitter" href="#">Twitter</a>
+                </li>
+            </ul>
+        </li>
+        <li class="tk-member-list-item">
+            <div class="tk-member-list-item_icon-wrapper">
+                <img class="tk-member-list-item_icon" data-src="img/twitter_icons/icon.png">
+            </div>
+            <span class="tk-member-list-item_name">BBBB</span>
+            <ul class="tk-member-list-item_social">
+                <li class="tk-member-list-item_social-item">
+                    <a class="tk-badge" data-type="twitter" href="#">Twitter</a>
+                </li>
+            </ul>
+        </li>
+        <li class="tk-member-list-item">
+            <div class="tk-member-list-item_icon-wrapper">
+                <img class="tk-member-list-item_icon" data-src="img/twitter_icons/icon.png">
+            </div>
+            <span class="tk-member-list-item_name">CCCC</span>
+            <ul class="tk-member-list-item_social">
+                <li class="tk-member-list-item_social-item">
+                    <a class="tk-badge" data-type="twitter" href="#">Twitter</a>
+                </li>
+            </ul>
+        </li>
+        <li class="tk-member-list-item">
+            <div class="tk-member-list-item_icon-wrapper">
+                <img class="tk-member-list-item_icon" data-src="img/twitter_icons/icon.png">
+            </div>
+            <span class="tk-member-list-item_name">DDDD</span>
+            <ul class="tk-member-list-item_social">
+                <li class="tk-member-list-item_social-item">
+                    <a class="tk-badge" data-type="twitter" href="#">Twitter</a>
+                </li>
+            </ul>
+        </li>
+        <li class="tk-member-list-item">
+            <div class="tk-member-list-item_icon-wrapper">
+                <img class="tk-member-list-item_icon" data-src="img/twitter_icons/icon.png">
+            </div>
+            <span class="tk-member-list-item_name">EEEE</span>
+            <ul class="tk-member-list-item_social">
+                <li class="tk-member-list-item_social-item">
+                    <a class="tk-badge" data-type="twitter" href="#">Twitter</a>
+                </li>
+            </ul>
+        </li>
+        <li class="tk-member-list-item">
+            <div class="tk-member-list-item_icon-wrapper">
+                <img class="tk-member-list-item_icon" data-src="img/twitter_icons/icon.png">
+            </div>
+            <span class="tk-member-list-item_name">FFFF</span>
+            <ul class="tk-member-list-item_social">
+                <li class="tk-member-list-item_social-item">
+                    <a class="tk-badge" data-type="twitter" href="#">Twitter</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<section class="tk-section">
+    <h2 class="tk-section-title">
+        <img src="data:image/png;base64,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">
+        SAMPLE
+    </h2>
+    <a href="#" class="tk-sample-link">
+        <span class="tk-sample-link_title">サンプルを見る</span>
+        <span class="tk-sample-link_sub-title">Twitterモーメントへ</span>
+    </a>
+</section>
+
+<section class="tk-detail-section">
+    <h2 class="tk-detail-section-title">
+        <img src="data:image/png;base64,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">
+        DETAIL
+    </h2>
+    <div class="tk-detail">
+        <div class="tk-detail-img-wrapper">
+            <img class="tk-detail-img" data-src="img/cover.png">
+        </div>
+        <div class="tk-detail-spec">
+            <div class="tk-detail-title">
+                「サンプル」
+            </div>
+            <table class="tk-detail-spec-table">
+                <tr>
+                    <th>仕様</th>
+                    <td>B5 XXXXXXX XXXXX</td>
+                </tr>
+                <tr>
+                    <th>頒布</th>
+                    <td>イベント名 サークル名</td>
+                </tr>
+                <tr>
+                    <th>価格</th>
+                    <td>XXX 円</td>
+                </tr>
+                <tr>
+                    <th>委託</th>
+                    <td>後日掲載予定</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
+
+<div class="tk-credit">
+    <span class="tk-credit-name">Webデザイン yskw</span>
+</div>
+
+<div class="tk-social">
+    <div>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="tweet-button" data-show-count="false"></a>
+    </div>
+</div>
+
+<footer class="tk-footer">
+    当作品は二次創作作品であり、原作及びすべての企業・団体とは一切関係ありません。
+</footer>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+<script type="text/javascript">
+    (function () {
+        // 演出上のアセットを読み込むローダー
+        var AsserLoader = function (callback) {
+            var assets = [
+                {
+                    selector: ".tk-cover-image-wrapper",
+                    loaded: false
+                },
+                {
+                    selector: ".tk-cover-yuge-bg1",
+                    loaded: false
+                },
+                {
+                    selector: ".tk-cover-yuge-bg2",
+                    loaded: false
+                },
+                {
+                    selector: ".tk-cover-yuge-bg3",
+                    loaded: false
+                }
+            ];
+            var startedTime = new Date().getTime();
+            var minimunAnimationTIme = 1000;
+
+            this.init = function () {
+                for (var i = 0; i < assets.length; i++) {
+                    load(i);
+                }
+            };
+
+            function load(index) {
+                var element = document.querySelector(assets[index].selector);
+                var src = element.getAttribute("data-src");
+                var loader = document.createElement("img");
+                loader.src = src;
+                loader.addEventListener("load", function () {
+                    assets[index].loaded = true;
+                    if (element.tagName === "IMG") {
+                        element.src = src;
+                    } else {
+                        element.style.backgroundImage = "url('" + src + "')";
+                    }
+                    checkEnded();
+                });
+            }
+
+            function checkEnded() {
+                var isLoaded = assets.filter(function (asset) {
+                    return asset.loaded === false;
+                }).length === 0;
+
+                if (!isLoaded) {
+                    return;
+                }
+
+                var diff = new Date().getTime() - startedTime;
+                if (diff < minimunAnimationTIme) {
+                    window.setTimeout(function () {
+                        callback();
+                    }, minimunAnimationTIme - diff);
+                    return;
+                }
+                callback();
+            }
+        };
+
+        // シェイクで湯気を薄くする
+        var ShakeDetect = function () {
+            this.init = function() {
+                var yuges = document.querySelector(".tk-cover-yuges");
+                var shakeEvent = new Shake({threshold: 15});
+                shakeEvent.start();
+                window.addEventListener("shake", function(){
+                    yuges.style.opacity = 0;
+                    window.setTimeout(function() {
+                        yuges.style.opacity = 1;
+                    }, 3000);
+                }, false);
+            };
+        };
+
+        // メインビジュアルの位置調整
+        var VisualPositionUpdater = function () {
+            var self = this;
+            var visual = document.querySelector(".tk-cover-image-wrapper");
+
+            this.init = function () {
+                self.updateVisualPositionThrottled();
+                window.addEventListener("resize", self.updateVisualPositionThrottled());
+            };
+
+            this.updateVisualPosition = function () {
+                var MAX_CLIP_HEIGHT = 300; // 上から300pxくらいのところに目線
+                var CLIP_TARGET_WINDOW_SIZE = 768; // ウィンドウサイズがこれより大きい場合はクリップしない
+
+                var baseWindowWidth = visual.clientWidth; // 基準窓の横幅
+                var baseWindowHeight = baseWindowWidth * 1.4; // 基準窓の縦幅
+                var clipHeight = baseWindowHeight - window.innerHeight; // 基準窓と比較してクリップする必要がある高さ
+
+                var aspect = window.innerWidth / window.innerHeight;
+                var dontClip = window.innerWidth > CLIP_TARGET_WINDOW_SIZE && clipHeight < 0 // ウィンドウ幅が十分、クリップ必要なし
+                    || window.innerWidth <= 768 && aspect < 1.4; // ウィンドウ幅が十分だが、縦長
+
+                // クリップしない
+                if (dontClip) {
+                    visual.style.backgroundPositionY = 0;
+                    return;
+                }
+                // クリップ幅を限定
+                if (clipHeight < 0) {
+                    clipHeight = 0
+                }
+                if (clipHeight > MAX_CLIP_HEIGHT) {
+                    clipHeight = MAX_CLIP_HEIGHT
+                }
+                visual.style.backgroundPositionY = -clipHeight + "px";
+            };
+
+            this.updateVisualPositionThrottled = function () {
+                var interval = 33;
+                var lastTime = new Date().getTime() - interval;
+
+                return function () {
+                    if ((lastTime + interval) <= new Date().getTime()) {
+                        lastTime = new Date().getTime();
+                        self.updateVisualPosition();
+                    }
+                };
+            };
+        };
+
+        // メインビジュアルの位置調整
+        var visualPositionUpdater = new VisualPositionUpdater();
+
+        // 最初の演出上のアセット読み込みとフェード
+        var initialize = function () {
+            window.setTimeout(function () {
+                (visualPositionUpdater).init();
+            }, 0);
+            document.querySelector(".tk-cover").setAttribute("data-loaded", "true");
+            setTimeout(function () {
+                document.querySelector("html").setAttribute("data-loaded", "true");
+                var tweetButtons = document.querySelectorAll(".tweet-button");
+                for (var i = 0; i < tweetButtons.length; i++) {
+                    tweetButtons[i].className = "twitter-share-button";
+                }
+                twttr.widgets.load();
+                (new ShakeDetect()).init();
+            }, 2000);
+        };
+        (new AsserLoader(initialize)).init();
+
+        // 振る演出
+        new ShakeDetect();
+
+        // 遅延ロード
+        var observer = lozad(".tk-cover-title_image, .tk-member-list-item_icon, .tk-detail-img");
+        observer.observe();
+
+    })();
+</script>
+
+<script type="text/javascript" src="https://cdn.rawgit.com/alexgibson/shake.js/master/shake.js"></script>
+
+</body>
+</html>

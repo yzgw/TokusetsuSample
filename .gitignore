@@ -1,0 +1,6 @@
+debug/
+node_modules/
+.idea/
+.cache/
+.DS_Store
+package-lock.json
